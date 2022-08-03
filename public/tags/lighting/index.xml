@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>lighting on Dong Hyun KIM</title>
+    <link>https://donghyunkim.netlify.app/tags/lighting/</link>
+    <description>Recent content in lighting on Dong Hyun KIM</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>D.H.KIM</copyright>
+    <lastBuildDate>Mon, 06 Jun 2022 09:00:00 +0000</lastBuildDate><atom:link href="https://donghyunkim.netlify.app/tags/lighting/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>radiance (v3.1)</title>
+      <link>https://donghyunkim.netlify.app/posts/liighting/</link>
+      <pubDate>Mon, 06 Jun 2022 09:00:00 +0000</pubDate>
+      
+      <guid>https://donghyunkim.netlify.app/posts/liighting/</guid>
+      <description>Before 1.7.0_06, String has 4 non static field:
+ char[] value int[] offset int count int hash  Subing.substring create a String by sharing the original String&amp;rsquo;s internal char[] value and setting offset. This saves memory and makes String.substring run in a constant time($O(1)$). Meanwhile, this feature may cause memory leak1.
+http://hg.openjdk.java.net/jdk6/jdk6/jdk/file/8deef18bb749/src/share/classes/java/lang/String.java
+1public final class String 2 implements java.io.Serializable, Comparable&amp;lt;String&amp;gt;, CharSequence 3{ 4 /** The value is used for character storage.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>evalglare on Dong Hyun KIM</title>
+    <link>https://donghyunkim.netlify.app/tags/evalglare/</link>
+    <description>Recent content in evalglare on Dong Hyun KIM</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>D.H.KIM</copyright>
+    <lastBuildDate>Sun, 27 Oct 2019 09:00:00 +0000</lastBuildDate><atom:link href="https://donghyunkim.netlify.app/tags/evalglare/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>evalglare (v.xxx)</title>
+      <link>https://donghyunkim.netlify.app/posts/evalglare-v.xx/</link>
+      <pubDate>Sun, 27 Oct 2019 09:00:00 +0000</pubDate>
+      
+      <guid>https://donghyunkim.netlify.app/posts/evalglare-v.xx/</guid>
+      <description>Education  Int32 String Boolean GenericValue　参照   UiPath Studio には GenericValue 変数の自動変換メカニズムがあり、式を正しく定義することで、目的の結果を得ることができます。式の最初の要素は、Studio から操作するガイドラインとして使用されることを考慮してください。例えば、2 つの GenericValue 変数を追加し、式の最初の変数が String として定義されてた場合、最初に代入された値を元に 2 つの値を結合し、文字列となります。 Integer として定義した場合の結果は、合計の値となります。
+  Array DataTime DataTable  .Net 変数型を参照して探す方法
+アクティビティ レイアウトダイアグラム  シーエンス：　より高度で複雑な自動化に向こう フローチャート：　シンプルな自動化プロジェクトに適している ステートマシン Global Exception Handler (グローバル例外ハンドラー)   参照：https://docs.uipath.com/studio/lang-ja/docs/workflow-design
+ 選択肢  条件分岐(If)：　シーケンス用条件分岐 フロー条件分岐(flow desicion)：　フローチャート用条件分岐 フロースイッチ (Flow Switch)  繰り返し  繰り返し（前判定）(While) 繰り返し（後判定）(Do While) 繰り返し（コレクションの各要素）(For Each)  データ操作  CSVを読み込み(Read CSV)  オプションにエンコーディングを指定できる（日本語データがある場合、&amp;quot;SHIFT-JIS&amp;quot;を指定する） 列名を含める(IncludeColumnNames)を指定できる 出力タイプ：System.</description>
+    </item>
+    
+  </channel>
+</rss>
