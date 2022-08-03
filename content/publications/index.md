@@ -30,3 +30,13 @@ This is home for my research publications, each linked with accompanying preprin
 * To be added
 * Authors: AnneMarie Eijkelenboom*, **Dong Hyun Kim**, Philomena Bluyssen
 * *Building and Environnment* July 2020
+
+### [Substantiation of home occupant archetypes with the use of generative techniques: analysis and results of focus groups](https://www.tandfonline.com/doi/pdf/10.1080/17508975.2020.1747381)
+* To be added
+* Authors: Marco Ortiz*, **Dong Hyun Kim**, Philomena Bluyssen
+* *Intelligent Buildings International* April 2020
+
+### [Workshop with 335 primary school children in The Netherlands: What is needed to improve the IEQ in their classrooms?](https://www.sciencedirect.com/science/article/pii/S0360132319306985)
+* To be added
+* Authors: Philomena Bluyssen*, **Dong Hyun Kim**, AnneMarie Eijkelenboom, Marco Ortiz
+* *Buildiing and Environment* January 2020
