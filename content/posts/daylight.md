@@ -5,12 +5,12 @@ category: tech
 tags:
     - dayliight
 keywords:
-    - composer
-    - autoload
-    - psr-4
+    - glare
+    - evalglare
+    - visual comfort
 ---
 
-composer的autoload可以轻松的实现php的自动加载。在`composer.json`中添加`autoload`字段即可。当前支持 `PSR-0` `PSR-4` `classmap`解析和`files`包含。官方推荐PSR-4标准（添加类时不需要重新生成加载器）。
+Test`composer.json`test`autoload`test `PSR-0` `PSR-4` `classmap`test`files`test。
 
 ### PSR-4
 
