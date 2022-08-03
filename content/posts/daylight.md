@@ -1,7 +1,7 @@
 ---
 title: daylight
 date: 2022-07-05 02:42:06
-category: tech
+category: research
 tags:
     - dayliight
 keywords:
