@@ -7,7 +7,4 @@ This is home for my research publications, each linked with accompanying preprin
 
 ## 2022
 
-### Single image test
-
-
-![data-title="Changdeokgung_Palace"](/album/Changdeokgung_Palace.jpg) 
+{{< image-gallery gallery_dir="album" >}}
