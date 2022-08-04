@@ -1,0 +1,13 @@
+---
+title: Photos
+date: 2022-07-29 09:00:00
+---
+# Photos
+This is home for my research publications, each linked with accompanying preprints.
+
+## 2022
+
+### Single image test
+
+
+![data-title="Changdeokgung_Palace"](/album/Changdeokgung_Palace.jpg) 
