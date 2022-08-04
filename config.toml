@@ -81,6 +81,7 @@ weight = 6
   # Post page settings
   show_updated = true # default
   showReadTime = false # default
+  galleryLoadJQuery = true
 
   [params.comments]
     enabled = false # default
