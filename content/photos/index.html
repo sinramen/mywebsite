@@ -1,0 +1,50 @@
+{{ define "main" }}
+
+{{ $scratch := newScratch }}
+{{ if hugo.Environment | eq "development" }}
+{{ $scratch.Set "album/" .Site.BaseURL }}
+{{ else }}
+{{ $scratch.Set "album/" .Site.Params.cdnurl }}
+{{ end }}
+
+<main>
+	<article class="page">
+		<header class="post-header width-normal">
+			<h1 class="post-title">{{ .Title }}</h1>
+		</header>
+		<div class="post-content">
+			{{ .Content }}
+			<div class="photo-container">
+				{{ range (where .Site.RegularPages "Type" "in" (slice "photo")) }}
+				{{ if eq .Params.gallery_feature true }}
+				<div class="photo-item">
+					<a href="{{ .Permalink }}" data-no-instant>
+						<picture>
+							<img srcset="
+							{{ $scratch.Get "album/" }}uploads/{{ .Params.featured_image }}?w=320&ar=3:2&fit=crop&fm=pjpg&q=50&auto=format&blur=300&cs=strip 1024w,
+							{{ $scratch.Get "album/" }}uploads/{{ .Params.featured_image }}?w=320&ar=3:2&fit=crop&fm=pjpg&q=50&auto=format&blur=300&cs=strip 768w,
+							{{ $scratch.Get "album/" }}uploads/{{ .Params.featured_image }}?w=320&ar=3:2&fit=crop&fm=pjpg&q=50&auto=format&blur=300&cs=strip 640w,
+							{{ $scratch.Get "album/" }}uploads/{{ .Params.featured_image }}?w=320&ar=3:2&fit=crop&fm=pjpg&q=50&auto=format&blur=300&cs=strip 480w,
+							{{ $scratch.Get "album/" }}uploads/{{ .Params.featured_image }}?w=320&ar=3:2&fit=crop&fm=pjpg&q=50&auto=format&blur=300&cs=strip 320w"
+					data-srcset="
+						{{ $scratch.Get "album/" }}uploads/{{ .Params.featured_image }}?w=1024&ar=3:2&fit=crop&auto=format&fm=pjpg&q=65 1024w,
+						{{ $scratch.Get "album/" }}uploads/{{ .Params.featured_image }}?w=768&ar=3:2&fit=crop&auto=format&fm=pjpg&q=65 768w,
+						{{ $scratch.Get "album/" }}uploads/{{ .Params.featured_image }}?w=640&ar=3:2&fit=crop&auto=format&fm=pjpg&q=65 640w,
+						{{ $scratch.Get "album/" }}uploads/{{ .Params.featured_image }}?w=480&ar=3:2&fit=crop&auto=format&fm=pjpg&q=65 480w,
+						{{ $scratch.Get "album/" }}uploads/{{ .Params.featured_image }}?w=320&ar=3:2&fit=crop&auto=format&fm=pjpg&q=65 320w"
+						sizes="(max-width: 480px) 50vw, (max-width: 960px) 33.33vw, (max-width: 1440px) 25vw, 20vw"
+						src="{{ $scratch.Get "album/" }}uploads/{{ .Params.featured_image }}"
+						title="{{ .Title }}"
+						alt="{{ .Title }}"
+						loading="lazy">
+						</picture>
+					</a>
+				</div>
+				{{ end }}
+				{{ end }}
+			</div>
+		</div>
+	</article>
+</main>
+
+{{ end }}
