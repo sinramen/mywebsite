@@ -9,8 +9,7 @@ keywords:
     - RPA
     - uipath
 ---
-
-## Education
+## 2022
 
 * Int32
 * String
@@ -25,9 +24,9 @@ keywords:
 
 [.Net 変数型を参照して探す方法](https://docs.uipath.com/studio/lang-ja/docs/managing-variables#section-browsing-for-net-variable-types)
 
-## アクティビティ
+## 2021
 
-### レイアウトダイアグラム
+### Publication1
 
 * シーエンス：　より高度で複雑な自動化に向こう
 * フローチャート：　シンプルな自動化プロジェクトに適している
@@ -36,19 +35,19 @@ keywords:
 
 >参照：[https://docs.uipath.com/studio/lang-ja/docs/workflow-design](https://docs.uipath.com/studio/lang-ja/docs/workflow-design)
 
-### 選択肢
+### Publication2
 
 * 条件分岐(If)：　シーケンス用条件分岐
 * フロー条件分岐(flow desicion)：　フローチャート用条件分岐
 * フロースイッチ (Flow Switch)
 
-### 繰り返し
+### Publication3
 
 * 繰り返し（前判定）(While)
 * 繰り返し（後判定）(Do While)
 * 繰り返し（コレクションの各要素）(For Each)
 
-### データ操作
+### Pulicatoin4
 
 * CSVを読み込み(Read CSV)
     - オプションにエンコーディングを指定できる（日本語データがある場合、`"SHIFT-JIS"`を指定する）
@@ -60,7 +59,7 @@ keywords:
 Names.Select("[メンバー ステータス] = 'Yes'")
 ```
 
-### その他
+### Publication5
 
 * メッセージボックス
 * 代入(assign)
@@ -78,7 +77,7 @@ Names.Select("[メンバー ステータス] = 'Yes'")
 * 要素の有無を検出(Element Exists)
 * 要素の消滅を待つ(Wait Element Vanish)
 
-## レコーディング機能
+## 2020
 
 <span style="color: green">\[○\]レコーディング可</span>
 * 左クリック
@@ -98,24 +97,24 @@ Names.Select("[メンバー ステータス] = 'Yes'")
 * F2 - 時間差で選択
 * F3 - 領域を選択
 
-### ベーシック
+### publication1
 
 * 適する操作内容：複数ウィンドウ上の単一の操作
 * 生成されるワークフローがシンプル
 
-### デスクトップ
+### publication2
 
 * 適する操作内容：同一ウィンドウ上の連続した操作
 * 生成されるワークフローが複雑
 * セレクターの保守性が良い
 
-### ウェブ
+### publication3
 
 ウェブアプリとブラウザーでレコーディングを行うためのものです。コンテナーを生成し、既定で 入力をシミュレート (Simulate Type)/クリック (Click) の入力メソッドを使用します。
 
-## 入力/出力方法まとめ
+## 2019
 
-### 入力
+### Publicatoin4
 
 * デフォルト(Default)
     - 互換性が高い
