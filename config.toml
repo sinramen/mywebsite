@@ -63,6 +63,7 @@ weight = 6
   googleAnalyticsAsync = true # use asynchronous tracking. Synchronous tracking by default
   showAllPostsArchive = false # default
   noindexArchive = true # default, set to true if you don't want search engines to index archive pages (should improve SEO)
+  galleryLoadJQuery = true
 
   # Home page settings
   description = "Hello, I am Dong Hyun Kim, a researcher in building science, based in Lausanne. You can know more about me on this [about](/about) and my [publication](/publications) section. This blog is an open notebook explorinng my thoughts on (day)lighting research."
@@ -70,6 +71,7 @@ weight = 6
   mainSectionTitle = "Blog"
   showAllPostsOnHomePage = false # default
   tocInline = true
+  galleryLoadJQuery = true
   postsOnHomePage = 5 # this option will be ignored if showAllPostsOnHomePage is set to true
   tagsOverview = true # show tags overview by default.
   showProjectsList = false # show projects list by default (if projects data file exists).
